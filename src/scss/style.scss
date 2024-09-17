@@ -1,0 +1,32 @@
+@import 'vars';
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'proxima nova';
+    font-size: 10px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: $light-gray;
+}
+
+@import 'blocks/container';
+@import 'blocks/header';
+@import 'blocks/logo';
+@import 'blocks/collections';
+@import 'blocks/btn';
+@import 'blocks/title';
+@import 'blocks/assortment';
+@import 'blocks/brands';
+@import 'blocks/cross';
+@import 'blocks/footer';
+

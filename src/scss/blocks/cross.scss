@@ -1,0 +1,26 @@
+.cross {
+    position: relative;
+    overflow: hidden;
+
+    width: 10px;
+    height: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .line {
+        position: absolute;
+
+        width: 20px;
+        height: 1px;
+
+        background-color: rgba($black, .35);
+
+        transform: rotate(45deg);
+        
+        &--second {
+            transform: rotate(-45deg);
+        }
+    }
+}

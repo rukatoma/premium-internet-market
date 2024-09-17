@@ -1,0 +1,17 @@
+.brands {
+    width: 100%;
+
+    background-color: rgba($black, .08);
+
+    &__body {
+        padding: 90px 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__img {
+        mix-blend-mode: multiply;
+    }
+}

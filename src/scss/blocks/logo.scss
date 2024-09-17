@@ -1,0 +1,21 @@
+.logo {
+    position: absolute;
+    z-index: 1;
+
+    width: 170px;
+    height: 100%;
+       
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: $orange;
+
+    &__img {
+        position: absolute;
+        z-index: 10;
+
+        mix-blend-mode: screen;
+    }
+}
